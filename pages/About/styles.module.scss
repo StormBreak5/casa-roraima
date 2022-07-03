@@ -1,0 +1,33 @@
+.container {
+    max-width: 1250px;
+    margin: 2rem auto;
+}
+
+.logoWrapper {
+    margin: 1.5rem auto 2rem;
+    text-align: center;
+}
+
+.aboutContent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutText {
+    max-width: 45%;
+
+    h1{
+        font-size: 2rem;
+        color: #A08D72;
+    }
+
+    p{
+        line-height: 1.5rem;
+        font-size: 1.25rem;
+        color: #4B5030;
+    }
+}
+
+.imageWrapper {
+    margin: 1.5rem 0;
+}

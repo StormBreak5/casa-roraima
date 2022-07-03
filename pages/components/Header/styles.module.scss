@@ -1,0 +1,31 @@
+.headerContainer {
+    height: 5rem;
+    max-width: 1120px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 0 auto;
+    padding: 0.5rem 0;
+}
+
+.teste {
+    font-family: 'Acumin Variable Concept';
+
+    a {
+        padding: 6px 12px;
+        border-radius: 1rem;
+
+        transition: 0.2s color, 0.2s background-color;
+    }
+
+    a + a {
+        margin-left: 1rem;
+    }
+
+    a:hover {
+        background-color: #A08D72;
+        color: #FEF8F8;
+    }
+}
